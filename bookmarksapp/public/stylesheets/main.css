@@ -1,0 +1,93 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  background-color: #f2f2f2;
+}
+ul.bookmarksList{
+	
+	list-style: none;
+}
+
+ul.bookmarksList li {
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+
+ul.bookmarksList a {
+  margin-right: 10px;
+}
+
+.icon-trash {
+  color: #c6c6c6;
+  cursor: pointer;
+}
+
+.icon-trash:hover {
+  color: #666;
+}
+
+.over {
+  overflow: hidden;
+}
+
+.bookmarksInner {
+  margin-top:5px;
+}
+.bookmarksList li span button {
+    margin-right: 15px;
+}
+.bookmarksList li span span:nth-of-type(1) {
+    margin-right: 0;
+}
+.secondLevel > a {
+    margin-right: 0 !important;
+}
+.bookmarksInner li button {
+    margin-right: 15px;
+}
+.bookmarksInner li button:nth-of-type(1) {
+    margin-right: 10px;
+}
+.headerContainer {
+  margin-bottom: 30px;
+}
+.padResetLeft {
+  padding-left: 0;
+}
+.padResetRight {
+  padding-right: 0;
+}
+.jumbotron {
+  background-color: #f2f2f2;
+}
+.bmdropdown .iconDrop{
+  transition: all 0.32s ease-in-out;
+}
+.bmdropdown .toggled .iconDrop{
+  transform: rotate(90deg);
+  transition: all 0.32s ease-in-out;
+}
+.actionsPane {
+    color: #555;
+    float: right;
+    margin-right: 15px;
+}
+.actionsPane i:before {
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+

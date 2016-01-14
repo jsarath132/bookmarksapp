@@ -1,0 +1,17 @@
+<form ng-submit="submitbookmark()" name="bookmarksForm">
+	<div class="input-group">
+	  <input name="name" type="text" ng-model="bookmark.children[0].name" class="form-control" placeholder="Name" required>
+	  <p class="help-block" ng-show="bookmarksForm.name.$dirty && bookmarksForm.name.$invalid">Valid bookmark name required!</p>
+	</div>
+	<br />
+	<div class="input-group">
+	  <input name="url" type="url" ng-model="bookmark.children[0].url" class="form-control" placeholder="URL" required>
+	</div>
+	<br />
+	<div class="input-group">
+	  <input name="folder" type="text" ng-model="bookmark.foldername" class="form-control" placeholder="Folder name">
+	</div>
+	<br />
+	<button class="btn btn-primary" >Submit</button>
+	<button class="btn btn-default" ng-click="cancelsave()">Cancel</button>
+</form>
